@@ -19,10 +19,10 @@ export default class RecapModal extends React.Component {
     render() {
         const { open } = this.state;
         return (
-            <div className="row">
-                <button className="btn btn-outline-dark btn-sm" onClick={this.onOpenModal}>Show Stuff</button>
-                <Modal open={open} onClose={this.onCloseModal} little>
-                    <p>
+            <div className="recapModal">
+                <div className="col-sm-12" onClick={this.onOpenModal}></div>
+                <Modal open={open} onClose={this.onCloseModal} little className="rounded">
+                    <div className="rounded">
                         Mauris ac arcu sit amet dui interdum bibendum a sed diam. Praesent
                         rhoncus congue ipsum elementum lobortis. Ut ligula purus, ultrices id
                         condimentum quis, tincidunt quis purus. Proin quis enim metus. Nunc
@@ -33,7 +33,7 @@ export default class RecapModal extends React.Component {
                         risus. Pellentesque arcu sapien, aliquet sed orci sit amet, pulvinar
                         interdum velit. Nunc a rhoncus ipsum, maximus fermentum dolor. Praesent
                         aliquet justo vitae rutrum volutpat. Ut quis pulvinar est.
-                    </p>
+                    </div>
                 </Modal>
             </div>
         );

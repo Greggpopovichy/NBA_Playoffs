@@ -4,77 +4,72 @@ import RecapModal from '../RecapModal/RecapModal';
 
 //container for calendar
 class Container extends React.Component{
-    constructor(props, context) {
-        super(props, context);
-
-    }
     render() {
         return(
             <div className="container">
                 <div className="grid-calendar">
                     <div className="row calendar-week-header">
-                        <div className="col-xs-1 grid-cell"><div><div><span>S</span></div></div></div>
-                        <div className="col-xs-1 grid-cell"><div><div><span>M</span></div></div></div>
-                        <div className="col-xs-1 grid-cell"><div><div><span>T</span></div></div></div>
-                        <div className="col-xs-1 grid-cell"><div><div><span>W</span></div></div></div>
-                        <div className="col-xs-1 grid-cell"><div><div><span>T</span></div></div></div>
-                        <div className="col-xs-1 grid-cell"><div><div><span>F</span></div></div></div>
-                        <div className="col-xs-1 grid-cell"><div><div><span>S</span></div></div></div>
+                        <div className="col-xs-1 grid-cell"><span>S</span></div>
+                        <div className="col-xs-1 grid-cell"><span>M</span></div>
+                        <div className="col-xs-1 grid-cell"><span>T</span></div>
+                        <div className="col-xs-1 grid-cell"><span>W</span></div>
+                        <div className="col-xs-1 grid-cell"><span>T</span></div>
+                        <div className="col-xs-1 grid-cell"><span>F</span></div>
+                        <div className="col-xs-1 grid-cell"><span>S</span></div>
                      </div>
+                <div className="row calendar-week">
+                    <div className="col-xs-1 grid-cell previous-month"><div className="row"><h6>31</h6></div><RecapModal/></div>
+                    <div className="col-xs-1 grid-cell"><div className="row"><h6>1</h6></div><RecapModal/></div>
+                    <div className="col-xs-1 grid-cell"><div className="row"><h6>2</h6></div><RecapModal/></div>
+                    <div className="col-xs-1 grid-cell"><div className="row"><h6>3</h6></div><RecapModal/></div>
+                    <div className="col-xs-1 grid-cell"><div className="row"><h6>4</h6></div><RecapModal/></div>
+                    <div className="col-xs-1 grid-cell"><div className="row"><h6>5</h6></div><RecapModal/></div>
+                    <div className="col-xs-1 grid-cell"><div className="row"><h6>6</h6></div><RecapModal/></div>
+                </div>
 
-        <div className="row calendar-week">
-            <div className="col-xs-1 grid-cell previous-month"><div><div><span>31 </span></div></div></div>
-            <div className="col-xs-1 grid-cell"><div><div><span>1 <RecapModal/></span></div></div></div>
-            <div className="col-xs-1 grid-cell"><div><div><span>2 <RecapModal/></span></div></div></div>
-            <div className="col-xs-1 grid-cell"><div><div><span>3 <RecapModal/></span></div></div></div>
-            <div className="col-xs-1 grid-cell"><div><div><span>4 <RecapModal/></span></div></div></div>
-            <div className="col-xs-1 grid-cell"><div><div><span>5 <RecapModal/></span></div></div></div>
-            <div className="col-xs-1 grid-cell"><div><div><span>6 <RecapModal/></span></div></div></div>
-        </div>
+                <div className="row calendar-week">
+                    <div className="col-xs-1 grid-cell"><div className="row"><h6>7</h6></div><RecapModal/></div>
+                    <div className="col-xs-1 grid-cell"><div className="row"><h6>8</h6></div><RecapModal/></div>
+                    <div className="col-xs-1 grid-cell"><div className="row"><h6>9</h6></div><RecapModal/></div>
+                    <div className="col-xs-1 grid-cell"><div className="row"><h6>10</h6></div><RecapModal/></div>
+                    <div className="col-xs-1 grid-cell"><div className="row"><h6>11</h6></div><RecapModal/></div>
+                    <div className="col-xs-1 grid-cell"><div className="row"><h6>12</h6></div><RecapModal/></div>
+                    <div className="col-xs-1 grid-cell"><div className="row"><h6>13</h6></div><RecapModal/></div>
+                </div>
 
-        <div className="row calendar-week">
-            <div className="col-xs-1 grid-cell"><div><div><span>7 <RecapModal/></span></div></div></div>
-            <div className="col-xs-1 grid-cell"><div><div><span>8 <RecapModal/></span></div></div></div>
-            <div className="col-xs-1 grid-cell"><div><div><span>9 <RecapModal/></span></div></div></div>
-            <div className="col-xs-1 grid-cell"><div><div><span>10 <RecapModal/></span></div></div></div>
-            <div className="col-xs-1 grid-cell"><div><div><span>11 <RecapModal/></span></div></div></div>
-            <div className="col-xs-1 grid-cell"><div><div><span>12 <RecapModal/></span></div></div></div>
-            <div className="col-xs-1 grid-cell"><div><div><span>13 <RecapModal/></span></div></div></div>
-        </div>
+                <div className="row calendar-week">
+                    <div className="col-xs-1 grid-cell"><div className="row"><h6>14</h6></div><RecapModal/></div>
+                    <div className="col-xs-1 grid-cell"><div className="row"><h6>15</h6></div><RecapModal/></div>
+                    <div className="col-xs-1 grid-cell"><div className="row"><h6>16</h6></div><RecapModal/></div>
+                    <div className="col-xs-1 grid-cell"><div className="row"><h6>17</h6></div><RecapModal/></div>
+                    <div className="col-xs-1 grid-cell"><div className="row"><h6>18</h6></div><RecapModal/></div>
+                    <div className="col-xs-1 grid-cell"><div className="row"><h6>19</h6></div><RecapModal/></div>
+                    <div className="col-xs-1 grid-cell"><div className="row"><h6>20</h6></div><RecapModal/></div>
+                </div>
 
-        <div className="row calendar-week">
-            <div className="col-xs-1 grid-cell"><div><div><span>14 <RecapModal/></span></div></div></div>
-            <div className="col-xs-1 grid-cell"><div><div><span>15 <RecapModal/></span></div></div></div>
-            <div className="col-xs-1 grid-cell"><div><div><span>16 <RecapModal/></span></div></div></div>
-            <div className="col-xs-1 grid-cell"><div><div><span>17 <RecapModal/></span></div></div></div>
-            <div className="col-xs-1 grid-cell"><div><div><span>18 <RecapModal/></span></div></div></div>
-            <div className="col-xs-1 grid-cell"><div><div><span>19 <RecapModal/></span></div></div></div>
-            <div className="col-xs-1 grid-cell"><div><div><span>20 <RecapModal/></span></div></div></div>
-        </div>
+                <div className="row calendar-week">
+                    <div className="col-xs-1 grid-cell"><div className="row"><h6>21</h6></div><RecapModal/></div>
+                    <div className="col-xs-1 grid-cell"><div className="row"><h6>22</h6></div><RecapModal/></div>
+                    <div className="col-xs-1 grid-cell"><div className="row"><h6>23</h6></div><RecapModal/></div>
+                    <div className="col-xs-1 grid-cell"><div className="row"><h6>24</h6></div><RecapModal/></div>
+                    <div className="col-xs-1 grid-cell"><div className="row"><h6>25</h6></div><RecapModal/></div>
+                    <div className="col-xs-1 grid-cell"><div className="row"><h6>26</h6></div><RecapModal/></div>
+                    <div className="col-xs-1 grid-cell"><div className="row"><h6>27</h6></div><RecapModal/></div>
+                </div>
 
-        <div className="row calendar-week">
-            <div className="col-xs-1 grid-cell"><div><div><span>21 <RecapModal/></span></div></div></div>
-            <div className="col-xs-1 grid-cell"><div><div><span>22 <RecapModal/></span></div></div></div>
-            <div className="col-xs-1 grid-cell"><div><div><span>23 <RecapModal/></span></div></div></div>
-            <div className="col-xs-1 grid-cell"><div><div><span>24 <RecapModal/></span></div></div></div>
-            <div className="col-xs-1 grid-cell"><div><div><span>25 <RecapModal/></span></div></div></div>
-            <div className="col-xs-1 grid-cell"><div><div><span>26 <RecapModal/></span></div></div></div>
-            <div className="col-xs-1 grid-cell"><div><div><span>27 <RecapModal/></span></div></div></div>
+                <div className="row calendar-week">
+                    <div className="col-xs-1 grid-cell"><div className="row"><h6>28</h6></div><RecapModal/></div>
+                    <div className="col-xs-1 grid-cell"><div className="row"><h6>29</h6></div><RecapModal/></div>
+                    <div className="col-xs-1 grid-cell"><div className="row"><h6>30</h6></div><RecapModal/></div>
+                    <div className="col-xs-1 grid-cell"><div className="row"><h6>31</h6></div><RecapModal/></div>
+                    <div className="col-xs-1 grid-cell next-month"><div className="row"><h6>01</h6></div><RecapModal/></div>
+                    <div className="col-xs-1 grid-cell next-month"><div className="row"><h6>02</h6></div><RecapModal/></div>
+                    <div className="col-xs-1 grid-cell next-month"><div className="row"><h6>03</h6></div><RecapModal/></div>
+                </div>
         </div>
-
-        <div className="row calendar-week">
-            <div className="col-xs-1 grid-cell"><div><div><span>28 <RecapModal/></span></div></div></div>
-            <div className="col-xs-1 grid-cell"><div><div><span>29 <RecapModal/></span></div></div></div>
-            <div className="col-xs-1 grid-cell"><div><div><span>30 <RecapModal/></span></div></div></div>
-            <div className="col-xs-1 grid-cell next-month"><div><div><span>1 <RecapModal/></span></div></div></div>
-            <div className="col-xs-1 grid-cell next-month"><div><div><span>2 <RecapModal/></span></div></div></div>
-            <div className="col-xs-1 grid-cell next-month"><div><div><span>3 <RecapModal/></span></div></div></div>
-            <div className="col-xs-1 grid-cell next-month"><div><div><span>4 <RecapModal/></span></div></div></div>
-        </div>
-        </div>
-        </div>
-        )
-    }
+     </div>
+    )
+  }
 }
 
 export default Container;

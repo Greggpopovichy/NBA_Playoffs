@@ -38,6 +38,12 @@
     background-color: #f6f6f6;
     border: 1px solid #fff;
 }
+
+.grid-calendar .calendar-week-header{
+    padding-bottom:20px;
+    padding-top:20px;
+}
+
 .grid-calendar .calendar-week-header .grid-cell > div > div {
     padding-bottom: 10px;
     height: auto;
@@ -58,10 +64,19 @@
 }
 .grid-calendar .grid-cell > div {
     display: flex;
-    justify-content: center;
     width: 100%;
+    padding-left:15px;
+    padding-top:15px;
 }
 .grid-calendar .grid-cell > div > div {
     height: 0;
-    padding: 50% 0;
+    padding: 40% 0;
+}
+
+.calendar-week-header .grid-cell > div{
+    text-align: center;
+}
+
+.container{
+    font-family: 'Bevan';
 }

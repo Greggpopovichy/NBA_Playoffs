@@ -5,10 +5,11 @@
      position: absolute;
 }
 
-.recapModal{
-
-}
 
 .btn{
+    width:50%;
+}
 
+.recapModal{
+    font-family: 'Lato', sans-serif;
 }
